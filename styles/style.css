@@ -39,7 +39,7 @@ p {
 
 @media(max-width:780px) { 
     h1 { 
-    font-size: 60px;
+    font-size: 40px;
     } 
     .links{
         display: flex;

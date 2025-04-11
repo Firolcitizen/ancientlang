@@ -1,15 +1,26 @@
 table {
     border-collapse: collapse;
+    border: 1px solid #6cf;
 }
 th {
-    font-size: 15px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #039;
+    text-transform: uppercase;
+    border: 2px;
+    
 }
-.content {
-    /* flex: 1; */
-
-}
-
 .content-wrapper {
     display: flex;
     gap: 30px; /* Расстояние между таблицами */
+}
+
+h1 {
+    text-align: center;
+    font-size: 62px;
+}
+@media(max-width:780px) {
+    h1{
+        font-size: 40px;
+    }
 }
