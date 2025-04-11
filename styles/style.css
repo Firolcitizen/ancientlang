@@ -37,8 +37,18 @@ p {
     border-radius: 30px;
 }
 
-@media(max-width:780px) {
-    h1 {
-    font-size: 40px;
+@media(max-width:780px) { 
+    h1 { 
+    font-size: 60px;
+    } 
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .link{
+        text-align: center;
+    }
+    h1{
+        letter-spacing: 3px;
     }
 }
