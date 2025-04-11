@@ -51,4 +51,7 @@ p {
     h1{
         letter-spacing: 3px;
     }
+    p {
+        font-size: 12px;
+    }
 }
