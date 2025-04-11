@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+}
+th {
+    font-size: 15px;
+}
+.content {
+    /* flex: 1; */
+
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 30px; /* Расстояние между таблицами */
+}
